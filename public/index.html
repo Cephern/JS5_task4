@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <style>
+      body {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      a {
+        border: 2px solid #000;
+        border-radius: 4px;
+        padding: 3px;
+        text-decoration: none;
+        display: block;
+        width: 60px;
+        margin: 0 auto;
+      }
+
+      a:hover {
+        background-color: #000;
+        color: #f2f2f2;
+      }
+
+      a:active {
+        transform: scale(0.95);
+      }
+
+      a:focus {
+        color: orange;
+      }
+
+      h3 {
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hallo!</h1>
+    <h2>You have a choice of reading something useful</h2>
+    <a href="/static">Pdf file</a>
+    <h2>Or watching a random meme...</h2>
+    <a href="/meme">Meme</a>
+
+    <h3>Also api requests should work :)</h3>
+    <h4>
+      Format is: /api/add/{number1}/{number2} || /api/mpy/{number1}/{number2}
+    </h4>
+
+    <h4>
+      Or /api/j/add/{number1}/{number2} || /api/j/mpy/{number1}/{number2} for
+      json response
+    </h4>
+  </body>
+</html>
