@@ -18,4 +18,4 @@ app
       .set({ "Content-Type": "text/html; charset=utf-8" })
       .send("<h1>Не найдено :(</h1>");
   })
-  .listen(8080, () => console.log(process.pid));
+  .listen(process.env.PORT || 8080, () => console.log(process.pid));
